@@ -1,0 +1,25 @@
+.contact {
+  width: 100%;
+  height: 500px;
+  /* background-color: springgreen; */
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+.contact .data {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.uppercase {
+  font-size: 30px;
+  font-weight: 700;
+}
+.fatty {
+  font-weight: 500;
+}
+.data p {
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+}

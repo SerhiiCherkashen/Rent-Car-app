@@ -1,0 +1,92 @@
+.vehicle-models {
+  height: 700px;
+  background-color: rgb(252, 164, 255);
+  padding: 50px;
+}
+.btn-mark-model {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  margin: 3px;
+}
+.wrap-choose-car {
+  display: flex;
+  justify-content: space-around;
+}
+.wrap-choose-car .wrap-btn {
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.wrap-choose-car img {
+  transform: scaleX(-1);
+  width: 300px;
+}
+
+.parameter {
+  /* width: 100px;
+  height: 50px;
+  border: 2px solid black; */
+}
+.parameter-name {
+  /* width: 150px; */
+  /* grid-column-start: 1;
+  grid-column-end: 6; */
+}
+.parameter .slash {
+  /* grid-column-start: 7; */
+}
+.parameter-car {
+  /* width: 150px; */
+  /* height: 50px; */
+  /* border: 2px solid black; */
+  /* grid-column-start: 7;
+  grid-column-end: 12;
+  grid-row: 1; */
+  /* background-color: violet; */
+}
+.wrapper-params {
+  /* background-color: steelblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rent-per-day {
+  /* width: 304px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 304px;
+  height: 50px;
+  background-color: red;
+  font-size: 30px;
+  color: white;
+}
+.rent-per-day .sum {
+  font-size: 40px;
+  font-weight: 900;
+}
+.wrap-parameter {
+  /* background-color: yellowgreen; */
+  width: 300px;
+  display: grid;
+  grid-template-columns: 149px 2px 149px;
+  border: 2px solid black;
+  font-size: 30px;
+}
+
+.wrapper-params button {
+  background-color: red;
+  width: 304px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  border: none;
+}

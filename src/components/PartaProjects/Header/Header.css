@@ -1,0 +1,47 @@
+.links {
+  background-color: red;
+  margin: 30px;
+}
+.header {
+  padding-right: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aquamarine;
+
+  transition: opacity 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: rgb(155, 243, 255); */
+  z-index: 1000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.header .interior {
+  /* padding-left: 200px;
+  padding-right: 200px; */
+  /* background-color: blue; */
+}
+
+.link {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+.wrap-sing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap-sing button {
+  /* background-color: aqua; */
+  width: 100px;
+  height: 50px;
+  background-color: rgb(255, 115, 0);
+  margin: 10px;
+  border: none;
+}
